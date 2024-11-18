@@ -22,7 +22,28 @@ The Returns table tracks product returns, offering insights into customer satisf
 
 Upload the data to Power BI using the "Transform data" tag.
 ## Data Cleaning:
+The "Orders" table, which contains details of sales transactions, required significant data cleaning to ensure its reliability. Missing values in product names and order dates were addressed, and discrepancies between product availability and sales data were resolved. Duplicates were removed to maintain a unique dataset, ensuring accuracy in analysis. Similarly, in the "People" table, inconsistencies in regional sales representatives' data were identified and corrected to maintain consistency across the dataset. The "Returns" table, which logs returned products, also had missing values and inconsistencies that were rectified. These data cleaning efforts ensured a comprehensive and reliable dataset for further analysis.
 ## Data Transformation:
+After addressing the data cleaning issues, the next step was to transform the data for analytical purposes. Data formats across all tables were standardized, ensuring consistency in how sales transactions, product categories, and regional information were recorded. Key metrics such as sales performance by region, product return rates, and order fulfillment times were calculated to provide actionable insights. Products in the "Orders" and "Returns" tables were categorized by location and quality status to better understand regional product preferences and return patterns. This transformation allowed for more granular analysis and easier segmentation of sales performance.
+
+To optimize data structure and enhance performance in Power BI, additional dimensional tables such as Dim_Categorys, Dim_Sub-Categorys, Dim_Product, and Dim_Locations were created by extracting specific attributes from the original dataset. This process involves segmenting detailed data into smaller, specialized tables, which reduces redundancy and organizes the data for more efficient querying and analysis.
+
 ## Data Modeling:
+The data modeling process was essential in creating a coherent and structured framework for analysis. Relationships between the "Orders," "People," and "Returns" tables were established, allowing for seamless integration of data from various sources. This relational model facilitated real-time updates and dynamic filtering in Power BI, ensuring that users could easily explore sales patterns, regional performance, and product return trends. The ability to analyze data across tables allowed for deeper insights, such as identifying underperforming regions or products with high return rates, enabling more effective decision-making for the business.
+
+This model follows a snowflake schema, where dimensions are further normalized into sub-dimensions. For instance, Dim_Sub-Categorys connects with Dim_Categorys, offering a hierarchical structure that reflects real-world relationships among categories, sub-categories, and products. The central Fact_Orders table serves as the sole fact table, containing quantitative metrics such as sales and order data, which can be analyzed across these connected dimensions.
+
+
+
+The benefits of this approach are significant. By separating the data into normalized dimensions, the snowflake schema reduces data duplication and ensures consistency, especially for large datasets with complex hierarchies. This structure directly enhances the loading speed in Power BI, as the reduced data size and organized relationships require fewer computational resources. Moreover, the schema supports scalability, making it easier to integrate new dimensions or extend existing ones without compromising performance.
+
+This improved efficiency ensures that stakeholders can quickly access actionable insights, navigate data intuitively, and focus on critical metrics like sales performance by region or product category, ultimately enabling more informed and timely decision-making.
 ## Visualization Development:
+![Overview.png](https://github.com/khangtran85/PBI-Sales/blob/main/Overview.png)
+
+![Sub_Category Detail.png](https://github.com/khangtran85/PBI-Sales/blob/main/Sub_Category%20Detail.png)
+
+![Seller.png](https://github.com/khangtran85/PBI-Sales/blob/main/Seller.png)
+
+![Returned.png](https://github.com/khangtran85/PBI-Sales/blob/main/Returned.png)
 # Recommendation
