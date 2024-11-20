@@ -28,13 +28,13 @@ After addressing the data cleaning issues, the next step was to transform the da
 
 To optimize data structure and enhance performance in Power BI, additional dimensional tables such as Dim_Categorys, Dim_Sub-Categorys, Dim_Product, and Dim_Locations were created by extracting specific attributes from the original dataset. This process involves segmenting detailed data into smaller, specialized tables, which reduces redundancy and organizes the data for more efficient querying and analysis.
 
-![Relationship_Tables.png](https://github.com/khangtran85/PBI-Sales/blob/main/Relationship_Tables.png)
+![Relationship_Tables.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Relationship_Tables.png)
 ## Data Modeling:
 The data modeling process was essential in creating a coherent and structured framework for analysis. Relationships between the "Orders," "People," and "Returns" tables were established, allowing for seamless integration of data from various sources. This relational model facilitated real-time updates and dynamic filtering in Power BI, ensuring that users could easily explore sales patterns, regional performance, and product return trends. The ability to analyze data across tables allowed for deeper insights, such as identifying underperforming regions or products with high return rates, enabling more effective decision-making for the business.
 
 This model follows a snowflake schema, where dimensions are further normalized into sub-dimensions. For instance, Dim_Sub-Categorys connects with Dim_Categorys, offering a hierarchical structure that reflects real-world relationships among categories, sub-categories, and products. The central Fact_Orders table serves as the sole fact table, containing quantitative metrics such as sales and order data, which can be analyzed across these connected dimensions.
 
-![Snowflake_Model.png](https://github.com/khangtran85/PBI-Sales/blob/main/Snowflake_Model.png)
+![Snowflake_Model.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Snowflake_Model.png)
 
 The benefits of this approach are significant. By separating the data into normalized dimensions, the snowflake schema reduces data duplication and ensures consistency, especially for large datasets with complex hierarchies. This structure directly enhances the loading speed in Power BI, as the reduced data size and organized relationships require fewer computational resources. Moreover, the schema supports scalability, making it easier to integrate new dimensions or extend existing ones without compromising performance.
 
@@ -44,19 +44,19 @@ The visualization in Power BI was carefully designed to deliver actionable insig
 
 **Overview:** This page provides a comprehensive summary of the company's overall business performance. Key metrics such as total revenue, profit margins, segment and regional performance are displayed in an intuitive layout, offering stakeholders a high-level understanding of the company's current standing.
 
-![Overview.png](https://github.com/khangtran85/PBI-Sales/blob/main/Overview.png)
+![Overview.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Overview.png)
 
 **Sub/Category Detail:** This page dives deeper into the performance of individual product categories and sub-categories. Visuals such as bar charts, pie charts, and trend lines illustrate profit, revenue, and other indicators. By identifying the strengths and weaknesses of specific product segments, this page empowers decision-makers to refine their product strategies and focus on high-performing categories.
 
-![Sub_Category Detail.png](https://github.com/khangtran85/PBI-Sales/blob/main/Sub_Category%20Detail.png)
+![Sub_Category Detail.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Sub_Category%20Detail.png)
 
 **Seller:** Focused on sales representatives, this page evaluates their contributions across various markets. Metrics like total sales, regional performance, and individual efficiency are analyzed. These insights highlight top-performing sellers, identify areas needing improvement, and guide strategies to maximize sales team effectiveness.
 
-![Seller.png](https://github.com/khangtran85/PBI-Sales/blob/main/Seller.png)
+![Seller.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Seller.png)
 
 **Returned:** Dedicated to analyzing product returns, this page examines return rates, reasons for returns, and their impact on overall performance. Insights drawn from this data help pinpoint recurring issues, such as product quality or delivery discrepancies, and suggest actionable steps to reduce returns and enhance customer satisfaction.
 
-![Returned.png](https://github.com/khangtran85/PBI-Sales/blob/main/Returned.png)
+![Returned.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Returned.png)
 # Recommendation
 The analysis of Superstore’s data provides critical insights to drive strategic decision-making in alignment with the company's objectives. First, identifying the most profitable regions and markets reveals significant opportunities for targeted market expansion. Regions with consistently high revenue and profitability should receive increased investment in marketing and distribution to strengthen their dominance, while emerging markets showing potential should be explored with tailored entry strategies.
 
