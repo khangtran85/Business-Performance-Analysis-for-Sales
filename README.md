@@ -76,21 +76,41 @@ In this stage, create quick prototypes to explore solutions and gather user feed
 ## Visualization Development and Insights
 The visualization in Power BI was carefully designed to deliver actionable insights through four distinct pages, each tailored to address critical aspects of the company's operations.
 
-**Overview:**
+### Overview:
 
 ![Dashboard/Overview.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Dashboard/Overview.png)
 
-**Profit vs. Return:**
+Overall, the business performance appears to be stable, with key indicators such as Total Sales, Gross Profit, Units Sold, and Total Orders showing strong results towards the end of the year. Notably, the month with the lowest sales consistently falls in Q1, while the highest-performing month is always in Q4.
+
+Across all years in the dataset, the three markets—APAC, EU, and ES—consistently rank among the top four in terms of sales growth. In terms of Category performance, Technology, Office Supplies, and Furniture rank in descending order based on revenue, profit, and profit margin.
+
+Regarding shipping methods, customers seem to strongly prefer Standard Class delivery, which accounts for approximately 60% of all shipments.
+
+### Profit vs. Return:
 
 ![Dashboard/Profit vs. Return.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Dashboard/Profit%20vs.%20Return.png)
 
-**Salesperson:**
+Regardless of the segment, there is an overall decline in the volume of returned products from customers.
+
+Although the EU and ES markets are among the top contributors to the company’s revenue and profit, they also have the highest return rates.
+
+The total revenue lost due to returned items amounts to $820,000 over four years, accounting for approximately 7% of total revenue earned.
+
+### Salesperson:
 
 ![Dashboard/Salesperson.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Dashboard/Salesperson.png)
 
-**Product:**
+Each salesperson represents a specific region and is assigned an individual KPI (approximately 60% of the average revenue per person). Only 3 out of all salespeople did not meet their KPIs.
+
+Regardless of the individual, all salespeople seem to push hard to meet their targets towards the end of the year. This aligns with the company’s overall business trend, where revenue growth shows a strong and consistent increase in the final months.
+
+### Product:
 
 ![Dashboard/Product.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Dashboard/Product.png)
+
+As for product returns, the return trends are relatively consistent across segments. For instance, if the Consumer segment experiences a dip below 10% in September, the other two segments tend to show similar patterns.
+
+In the Sub-Category breakdown, certain product types such as Copiers, Bookcases, and Phones contribute significantly to both revenue and profit despite accounting for a smaller portion of total orders. On the other hand, categories like Art and Binders generate many orders but low revenue and profit.
 
 # Recommendation
 The analysis of Superstore’s data provides critical insights to drive strategic decision-making in alignment with the company's objectives. First, identifying the most profitable regions and markets reveals significant opportunities for targeted market expansion. Regions with consistently high revenue and profitability should receive increased investment in marketing and distribution to strengthen their dominance, while emerging markets showing potential should be explored with tailored entry strategies.
