@@ -32,6 +32,10 @@ The snowflake schema offers key advantages by reducing data duplication and ensu
 
 This efficiency enables stakeholders to quickly access insights, explore data intuitively, and focus on critical metrics like regional sales and product performance for timely, informed decision-making.
 ## Design Thinking
+### Step 1: Empathize
+### Step 2: Define Point of View
+### Step 3: Ideate
+### Stage 4: Prototype and Review
 ## Visualization Development
 The visualization in Power BI was carefully designed to deliver actionable insights through four distinct pages, each tailored to address critical aspects of the company's operations.
 
