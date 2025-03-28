@@ -33,27 +33,65 @@ The snowflake schema offers key advantages by reducing data duplication and ensu
 This efficiency enables stakeholders to quickly access insights, explore data intuitively, and focus on critical metrics like regional sales and product performance for timely, informed decision-making.
 ## Design Thinking
 ### Step 1: Empathize
+- 5W1H
+
+![Design_Thinking/Stage1_1_5W1H.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Design_Thinking/Stage1_1_5W1H.png)
+
+- Empathy Map
+
+![Design_Thinking/Stage1_2_Empathy Map.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Design_Thinking/Stage1_2_Empathy%20Map.png)
+
+- Stakeholer Journey Map
+
+![Design_Thinking/Stage1_3_Stakeholder Journey Map.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Design_Thinking/Stage1_3_Stakeholder%20Journey%20Map.png)
+  
 ### Step 2: Define Point of View
+- NorthStar Metrics
+
+![Design_Thinking/Stage2_4_Northstar Metrics.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Design_Thinking/Stage2_4_Northstar%20Metrics.png)
+
+- Define Point of View
+
+![Design_Thinking/Stage2_5_Define Point of View.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Design_Thinking/Stage2_5_Define%20Point%20of%20View.png)
+
+- Growth Formula
+
+![Design_Thinking/Stage2_6_Growth Formula.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Design_Thinking/Stage2_6_Growth%20Formula.png)
+
 ### Step 3: Ideate
+- Brainstorming
+
+![Design_Thinking/Stage3_7_Brainstorming1.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Design_Thinking/Stage3_7_Brainstorming1.png)
+
+![Design_Thinking/Stage3_8_Brainstorming2.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Design_Thinking/Stage3_8_Brainstorming2.png)
+
+- Structure Idea
+
+![Design_Thinking/Stage3_9_Structure Idea 1.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Design_Thinking/Stage3_9_Structure%20Idea%201.png)
+
+![Design_Thinking/Stage3_10_Structure Idea 2.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Design_Thinking/Stage3_10_Structure%20Idea%202.png)
+
 ### Stage 4: Prototype and Review
-## Visualization Development
+In this stage, create quick prototypes to explore solutions and gather user feedback. It allows for early improvements and helps ensure the idea meets real needs.
+## Visualization Development and Insights
 The visualization in Power BI was carefully designed to deliver actionable insights through four distinct pages, each tailored to address critical aspects of the company's operations.
 
-**Overview:** This page provides a comprehensive summary of the company's overall business performance. Key metrics such as total revenue, profit margins, segment and regional performance are displayed in an intuitive layout, offering stakeholders a high-level understanding of the company's current standing.
+**Overview:**
 
-![Overview.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Overview.png)
+![Dashboard/Overview.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Dashboard/Overview.png)
 
-**Sub/Category Detail:** This page dives deeper into the performance of individual product categories and sub-categories. Visuals such as bar charts, pie charts, and trend lines illustrate profit, revenue, and other indicators. By identifying the strengths and weaknesses of specific product segments, this page empowers decision-makers to refine their product strategies and focus on high-performing categories.
+**Profit vs. Return:**
 
-![Sub_Category Detail.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Sub_Category%20Detail.png)
+![Dashboard/Profit vs. Return.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Dashboard/Profit%20vs.%20Return.png)
 
-**Seller:** Focused on sales representatives, this page evaluates their contributions across various markets. Metrics like total sales, regional performance, and individual efficiency are analyzed. These insights highlight top-performing sellers, identify areas needing improvement, and guide strategies to maximize sales team effectiveness.
+**Salesperson:**
 
-![Seller.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Seller.png)
+![Dashboard/Salesperson.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Dashboard/Salesperson.png)
 
-**Returned:** Dedicated to analyzing product returns, this page examines return rates, reasons for returns, and their impact on overall performance. Insights drawn from this data help pinpoint recurring issues, such as product quality or delivery discrepancies, and suggest actionable steps to reduce returns and enhance customer satisfaction.
+**Product:**
 
-![Returned.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Returned.png)
+![Dashboard/Product.png](https://github.com/khangtran85/Business-Performance-Analysis-for-Sales/blob/main/Dashboard/Product.png)
+
 # Recommendation
 The analysis of Superstore’s data provides critical insights to drive strategic decision-making in alignment with the company's objectives. First, identifying the most profitable regions and markets reveals significant opportunities for targeted market expansion. Regions with consistently high revenue and profitability should receive increased investment in marketing and distribution to strengthen their dominance, while emerging markets showing potential should be explored with tailored entry strategies.
 
